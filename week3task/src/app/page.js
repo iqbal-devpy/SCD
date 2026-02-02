@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FaFacebookSquare, FaYoutube, FaLinkedin } from 'react-icons/fa';
 function Page() {
   return (
-    <div className='bg-[#050522]  text-white h-screen'>
+    <div className='bg-[#050522]  text-white min-h-screen'>
       {/* Section 1 Starts */}
       <div className='flex justify-between py-[10px] px-[70px]'>
         <p className='text-[20px] '>Next Js</p>
@@ -79,6 +79,78 @@ function Page() {
               Lorem ipsum dolor sit amet consectetur adipiscing elit. Delenut suscipit iure corpors temporibus ipsa exercitationem rscunat impsdrit modi, est quae harum eaque cumque provident sit maiores enim corrupti aspernatur dolores.
             </p>
             <p className='text-sm font-semibold'>Dummy text</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Portfolio Section */}
+      <div className='bg-[#050522] text-white min-h-screen'>
+
+        {/* Services Section */}
+        <div className='py-[80px] px-[70px]'>
+          <h1 className='text-4xl font-serif font-bold mb-[30px]'>Services I Offer</h1>
+          <p className='text-white font-serif mb-[60px] max-w-[1200px] text-lg'>
+            Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster Iosef Tarasov (Alfie Allen) and his gang steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, Iosef's father (Michael Nyqvist) -- John's former colleague -- puts a huge bounty on John's head.
+          </p>
+
+          {/* First Row - 2 Images */}
+          <div className='grid grid-cols-2 gap-8 mb-8'>
+            <div className='relative h-[350px] overflow-hidden rounded-lg'>
+              <img 
+                src='/johnwick1.jpg' 
+                alt='John Wick Portfolio 1'
+                className='w-full h-full object-cover hover:scale-110 transition-transform duration-300'
+              />
+            </div>
+            <div className='relative h-[350px] overflow-hidden rounded-lg'>
+              <img 
+                src='/johnwick2.jpg' 
+                alt='John Wick Portfolio 2'
+                className='w-full h-full object-cover hover:scale-110 transition-transform duration-300'
+              />
+            </div>
+          </div>
+
+          {/* Divider Line */}
+          <div className='border-t border-gray-600 my-[60px]'></div>
+
+          {/* Second Row - 2 Images */}
+          <div className='grid grid-cols-2 gap-8 mb-8'>
+            <div className='relative h-[350px] overflow-hidden rounded-lg'>
+              <img 
+                src='/johnwick3.jpg' 
+                alt='John Wick Portfolio 3'
+                className='w-full h-full object-cover hover:scale-110 transition-transform duration-300'
+              />
+            </div>
+            <div className='relative h-[350px] overflow-hidden rounded-lg'>
+              <img 
+                src='/johnwick4.jpg' 
+                alt='John Wick Portfolio 4'
+                className='w-full h-full object-cover hover:scale-110 transition-transform duration-300'
+              />
+            </div>
+          </div>
+
+          {/* Divider Line */}
+          <div className='border-t border-gray-600 my-[60px]'></div>
+
+          {/* Third Row - 2 Images */}
+          <div className='grid grid-cols-2 gap-8'>
+            <div className='relative h-[350px] overflow-hidden rounded-lg'>
+              <img 
+                src='/johnwick5.jpg' 
+                alt='John Wick Portfolio 5'
+                className='w-full h-full object-cover hover:scale-110 transition-transform duration-300'
+              />
+            </div>
+            <div className='relative h-[350px] overflow-hidden rounded-lg'>
+              <img 
+                src='/johnwick6.jpg' 
+                alt='John Wick Portfolio 6'
+                className='w-full h-full object-cover hover:scale-110 transition-transform duration-300'
+              />
+            </div>
           </div>
         </div>
       </div>
