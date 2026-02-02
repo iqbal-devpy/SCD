@@ -3,13 +3,13 @@ import MyCard from './mycard';
 
 export default function ServicesSection() {
   return (
-    <div className='bg-[#050522] text-white py-[80px] px-[70px]'>
-      <h2 className='text-3xl font-serif font-bold mb-[40px]'>Services I Offer</h2>
-      <p className='text-white font-serif mb-[60px] text-left max-w-[1100px]'>
+    <div className='bg-[#050522] text-white py-[40px] md:py-[60px] lg:py-[80px] px-[20px] md:px-[40px] lg:px-[70px]'>
+      <h2 className='text-2xl md:text-3xl lg:text-4xl font-serif font-bold mb-[30px] md:mb-[40px]'>Services I Offer</h2>
+      <p className='text-white font-serif mb-[40px] md:mb-[60px] text-left max-w-full lg:max-w-[1100px] text-sm md:text-base'>
         Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster Iosef Tarasov (Alfie Allen) and his gang steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, Iosef's father (Michael Nyqvist) -- John's former colleague -- puts a huge bounty on John's head.
       </p>
 
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6'>
         {/* Card 1 */}
         <MyCard 
           icon={<svg className='w-12 h-12' viewBox="0 0 24 24" fill="currentColor"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>}

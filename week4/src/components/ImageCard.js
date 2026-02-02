@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ImageCard({ src, alt }) {
   return (
-    <div className='relative h-[350px] overflow-hidden rounded-lg'>
+    <div className='relative h-[200px] md:h-[280px] lg:h-[350px] overflow-hidden rounded-lg'>
       <img 
         src={src} 
         alt={alt}
