@@ -15,7 +15,7 @@ export default function Hero() {
         <FaLinkedin className='w-6 h-6' />
       </div>
       <div className='m-auto pt-[50px]'>
-        <img src="/Knight.png" alt="" className='rounded-full w-[200px] h-[200px]' />
+        <img src="/johnwick1.jpg" alt="" className='rounded-full w-[200px] h-[200px]' />
       </div>
     </div>
   );

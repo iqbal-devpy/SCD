@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import { FaFacebookSquare, FaYoutube, FaLinkedin } from 'react-icons/fa';
+
 function Page() {
   return (
     <div className='bg-[#050522]  text-white min-h-screen'>
@@ -8,9 +8,9 @@ function Page() {
       <div className='flex justify-between py-[10px] px-[70px]'>
         <p className='text-[20px] '>Next Js</p>
         <div className='flex gap-4'>
-          <Link href="/services">
+          {/* <Link href="/services">
             <button className='bg-purple-500 px-[40px] py-[8px] rounded-[100px] hover:bg-purple-600'>Services</button>
-          </Link>
+          </Link> */}
           <button className='bg-blue-400 px-[50px] rounded-[100px]'>CV</button>
         </div>
       </div>
@@ -26,7 +26,7 @@ function Page() {
           <FaLinkedin className='w-6 h-6' />
         </div>
         <div className='m-auto pt-[50px]'>
-          <img src="/Knight.png" alt="" className='rounded-full w-[200px] h-[200px] ' />
+          <img src="/johnwick1.jpg" alt="" className='rounded-full w-[200px] h-[200px] ' />
         </div>
       </div>
 
@@ -112,7 +112,7 @@ function Page() {
           </div>
 
           {/* Divider Line */}
-          <div className='border-t border-gray-600 my-[60px]'></div>
+          {/* <div className='border-t border-gray-600 my-[60px]'></div> */}
 
           {/* Second Row - 2 Images */}
           <div className='grid grid-cols-2 gap-8 mb-8'>
@@ -133,7 +133,7 @@ function Page() {
           </div>
 
           {/* Divider Line */}
-          <div className='border-t border-gray-600 my-[60px]'></div>
+          {/* <div className='border-t border-gray-600 my-[60px]'></div> */}
 
           {/* Third Row - 2 Images */}
           <div className='grid grid-cols-2 gap-8'>

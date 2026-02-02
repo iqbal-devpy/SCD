@@ -7,9 +7,9 @@ export default function Header() {
       <p className='text-[20px]'>Next Js</p>
       <div className='flex gap-4'>
         <Link href="/services">
-          <button className='bg-purple-500 px-[40px] py-[8px] rounded-[100px] hover:bg-purple-600'>Services</button>
+          <button className='bg-green-500 px-[40px] py-[8px] rounded-[100px] hover:bg-red-600'>Services</button>
         </Link>
-        <button className='bg-blue-400 px-[50px] rounded-[100px]'>CV</button>
+        <button className='bg-blue-400 px-[50px] rounded-[100px] hover:bg-red-600'>CV</button>
       </div>
     </div>
   );
