@@ -1,0 +1,147 @@
+// Portfolio Data Configuration
+// All portfolio content is centralized here
+
+export const portfolioData = {
+  // Personal Info
+  personal: {
+    name: "Ahmed Iqbal",
+    title: "AI Engineer & Full-Stack Developer",
+    subtitle: "A passionate AI Engineer & Full-Stack Developer 🚀 specializing in building scalable, production-grade GenAI systems and dynamic Web & Mobile applications using FastAPI, LangChain, React, AWS, Docker, and modern technologies.",
+    email: "dev.iqbal3@gmail.com",
+    phone: "+92-3099017220",
+    location: "Lahore, Pakistan",
+    github: "https://github.com/iqbal-devpy",
+    linkedin: "https://www.linkedin.com/in/syed-ahmed-iqbal/",
+    resume: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  },
+
+  // Skills Section
+  skills: {
+    title: "What I do",
+    subtitle: "AI ENGINEER & FULL-STACK DEVELOPER OBSESSED WITH BUILDING PRODUCTION-GRADE SYSTEMS",
+    highlights: [
+      "⚡ Architect and develop scalable GenAI applications using FastAPI, LangChain, LLaMA-based models, and modern prompt engineering techniques.",
+      "⚡ Design and deploy backend microservices with Node.js / FastAPI, optimized for real-world production workloads",
+      "⚡ Containerize and orchestrate applications using Docker, with deployments on AWS, DigitalOcean, and modern cloud platforms.",
+      "⚡ Integrate third-party services and APIs including AWS services, Vector Databases, PostgreSQL, and more"
+    ],
+    technical: [
+      { name: "Python", icon: "fab fa-python" },
+      { name: "Node.js", icon: "fab fa-node" },
+      { name: "React.js", icon: "fab fa-react" },
+      { name: "PyTorch", icon: "fas fa-fire" },
+      { name: "Scikit-learn", icon: "fas fa-brain" },
+      { name: "HTML5", icon: "fab fa-html5" },
+      { name: "CSS3", icon: "fab fa-css3-alt" },
+      { name: "JavaScript", icon: "fab fa-js" },
+      { name: "npm", icon: "fab fa-npm" },
+      { name: "SQL Database", icon: "fas fa-database" },
+      { name: "AWS", icon: "fab fa-aws" },
+      { name: "Docker", icon: "fab fa-docker" }
+    ]
+  },
+
+  // Tech Stack / Proficiency
+  techStack: [
+    { name: "Python", percentage: 97 },
+    { name: "Machine Learning", percentage: 85 },
+    { name: "Node.js", percentage: 79 },
+    { name: "React.js", percentage: 84 },
+    { name: "PostgreSQL", percentage: 87 },
+    { name: "FastAPI", percentage: 80 },
+    { name: "Docker", percentage: 88 },
+    { name: "AWS", percentage: 79 }
+  ],
+
+  // Education
+  education: [
+    {
+      school: "Superior University",
+      degree: "Bachelor of Science in Artificial Intelligence",
+      duration: "September 2022 - April 2026",
+      description: "Made countless projects on Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Data Analysis, Computer Vision, Natural Language Processing, and more."
+    }
+  ],
+
+  // Work Experience
+  experience: [
+    {
+      role: "AI Developer",
+      company: "Forrentech",
+      date: "April 2025 - Present | Lahore, Pakistan",
+      description: "Served as Lead Developer in a 3-member team for an AI-powered property listing application that auto-generates listings from uploaded property images.",
+      highlights: [
+        "Engineered a robust backend using Node.js (Express 5) with a 3-layer architecture, leveraging Prisma ORM and PostgreSQL for clean, scalable data flow.",
+        "Built a performant Vite + React frontend with seamless social media integration and export-to-portal features.",
+        "Deployed the system via Docker, using Heroku for staging and AWS for production, ensuring smooth CI/CD pipeline.",
+        "Optimized AI image processing and API workflows, improving generation speed by 35% and reducing API costs by 60%."
+      ]
+    },
+    {
+      role: "Chatbot Developer",
+      company: "Optivex Solutions",
+      date: "May 2024 - March 2025 | Lahore, Pakistan",
+      description: "Served as Associate Developer for a medical AI chatbot that provides real-time assistance and emergency response guidance.",
+      highlights: [
+        "Developed multiple conversational and knowledge-based chatbots, significantly enhancing user engagement.",
+        "Utilized MySQL for structured data management and user interaction logging.",
+        "Deployed the system on Railway, achieving high availability and smooth CI/CD pipelines.",
+        "Optimized the response pipeline to deliver 100–500 ms response times, ensuring rapid guidance during emergencies."
+      ]
+    }
+  ],
+
+  // Projects
+  projects: [
+    {
+      name: "Realistic AI",
+      description: "An End-to-End AI Application that generates complete property listings from just images",
+      link: "https://realestic-b06386cfd83b.herokuapp.com/",
+      tags: ["AI", "Node.js", "React", "AWS"]
+    },
+    {
+      name: "Patient Readmission Prediction",
+      description: "Predicts patient readmission risks within 30 days using a 1-million-row synthetic dataset generated by Synthea",
+      link: "#",
+      tags: ["Machine Learning", "Python", "Data Science"]
+    },
+    {
+      name: "Omani Therapist Voice Chatbot",
+      description: "Real-Time Omani Therapist Voice Chatbot with intelligent conversational flows",
+      link: "#",
+      tags: ["AI", "Chatbot", "Voice"]
+    }
+  ],
+
+  // Achievements & Certifications
+  achievements: [
+    {
+      title: "AI Engineer for Data Scientists (Associate)",
+      issuer: "DataCamp",
+      date: "2024",
+      link: "https://drive.google.com/file/d/1h8iuBi5n4j1hOyokqeRCAX8hsifL1_bI/view?usp=sharing"
+    },
+    {
+      title: "Cloud Computing Certification",
+      issuer: "Digital Empowerment Network",
+      date: "2024",
+      link: "https://drive.google.com/file/d/1TQIy3DBjq2GXwZuBDZFRAtV_jmzjqG4e/view?usp=sharing"
+    },
+    {
+      title: "Machine Learning Certification",
+      issuer: "Digital Empowerment Network",
+      date: "2024",
+      link: "https://drive.google.com/file/d/13N4oN_kpR6Sw_U0UMoxDb7O6mqVITOMa/view?usp=sharing"
+    }
+  ],
+
+  // Contact Info
+  contact: {
+    title: "Let's Connect",
+    subtitle: "Have a project in mind or want to work together? Feel free to reach out!",
+    email: "dev.iqbal3@gmail.com",
+    phone: "+92-3099017220"
+  }
+};
+
+export default portfolioData;
